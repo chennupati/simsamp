@@ -1,0 +1,4 @@
+class User < Activerecord::Base
+	acts_as_authentic
+end
+
